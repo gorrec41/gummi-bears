@@ -1,4 +1,5 @@
 .header{
+    padding-bottom: 100px;
     width: 100%;
     min-height: 100vh;
     background: rgb(37, 35, 35);
@@ -54,35 +55,43 @@
     }
 }
 .slid-img{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 600px;
+    height: 300px;
     transform: skewX(-6deg);
-    background-color: #fff;
     overflow: hidden;
 }
 .img{
     width: 200px;
-    height: 100%;
+    height: inherit;
     overflow: hidden;
     margin-right: 1rem;
     transition: 1s;
     margin: 0;
     padding: 0;
-    img{
-        width: 170%;
-        height: auto;
-        margin: 0;
-        padding: 0;
+    background-image: url("./../img/header/slider/operator.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &:first-child{
+        background-image: url("./../img/header/slider/stalker.jpg");
     }
-    &:hover{
+    &:last-child{
+        background-image: url("./../img/header/slider/emisar.jpg");
+    }
 
-        transition: 1s;
-        position: relative;
-        overflow:initial;
-        max-width: 600px;
-        height: auto;
+    &:hover{
+        transition: 5s;
+        position: absolute;
+        width: 100%;
         z-index: 100;
+        // img{
+        //     transition: 5s;
+        //     width: 100%;
+            
+        // }
     }
 }
