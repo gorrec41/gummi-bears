@@ -1,0 +1,60 @@
+  
+:root {
+    --navlink: rgba(127, 255, 0, .8);
+    --laitegren:rgba(71, 82, 40, 0.4);
+    --linkgreen:rgba(71, 82, 40, .7);
+    --gren: rgb(71, 82, 40);
+    --white:#fff;
+    --whitesp:rgba(255, 255, 255, 0);
+    --bgcolor:rgba(0, 0, 0, .2);
+    --mdcolor:rgba(0, 0, 0, 1);
+  }
+//  var(--whitesp);
+//   var(--white);
+//   var(--linkgreen);
+//   var(--laitegren);
+//   var(--gren);
+//   var(--bgcolor);
+//   var(--progblock);
+*{
+	box-sizing: border-box;
+}
+a,
+h1,
+h2,
+h3,
+p,
+ul,
+li
+{
+	margin: 0;
+	padding: 0;
+}
+button,
+a,
+button:focus,
+a:focus{
+	outline: none;
+	border:0;
+}
+a{
+	text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+	color: #1a1a1a;
+}
+svg{
+	max-width: unset;
+	height:100%; 
+	width: auto;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 5px;
+}
