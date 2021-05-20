@@ -1,0 +1,23 @@
+.footer{
+    padding: 3rem 0;
+    width: 100%;
+    min-height: 20vh;
+    background: #000;
+}
+.wrapfoter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerlist{
+    color: var(--white);
+    margin-right: 3rem;
+    &:last-child{margin-right: 0;}
+} 
+.footeritem{
+    font-size: 1.2rem;
+    font-weight: 300;
+} 
+.linkfooter{
+    color: var(--white); 
+}

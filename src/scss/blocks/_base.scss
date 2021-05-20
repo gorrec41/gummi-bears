@@ -4,7 +4,7 @@
     --laitegren:rgba(71, 82, 40, 0.4);
     --linkgreen:rgba(71, 82, 40, .7);
     --gren: rgb(71, 82, 40);
-    --white:#fff;
+    --white:#f8f5e7;
     --whitesp:rgba(255, 255, 255, 0);
     --bgcolor:rgba(0, 0, 0, .2);
     --mdcolor:rgba(0, 0, 0, 1);
@@ -46,7 +46,8 @@ li {
 body {
 	margin: 0;
 	font-family: sans-serif;
-	color: #1a1a1a;
+	background: #1a1a1a;
+	font-family: 'Oswald', sans-serif;
 }
 svg{
 	max-width: unset;
